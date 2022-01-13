@@ -1,0 +1,58 @@
+/* DEV: CÁSSIA OLIVEIRA DOS SANTOS
+	 TURMA: INFO19
+	 PROFESSOR: KLEBERSON JUNIO DO AMARAL SERIQUE */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 35px;
+	font-family: 'Times' , sans-serif ;
+}
+
+body{
+	background-color: #FCE38A;
+}
+
+.header{
+	text-align: center;
+	color: #000000;
+	margin-bottom: 30px;
+}
+
+.autora{
+	font-size: 26px;
+}
+
+.calculadora {
+	width: 324px;
+	margin: auto;
+	background-color: #FF2442;
+	padding: 20px;
+	border-radius: 8px;
+}
+.displayCalculadora {
+	width: 100%;
+	height: 75px;
+	border:none;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border-radius:8px;
+	text-align: right;
+}
+input[type=button] {
+	width: 75px;
+	height: 75px;
+	margin: 2px;
+	color: rgb(255, 255, 255);
+	border:none;
+	border-radius: 8px;
+	background-color: #000000
+}
+
+#buttonEqual{
+	height: 158px; 
+}
+
+#buttonZero{
+	width: 158px;
+}
